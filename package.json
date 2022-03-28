@@ -1,0 +1,19 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "default": "index.html",
+  "browswerlist": "> 0.5%, lats 2 versions, not dead",
+  "description": "Guess the number Game",
+  "targets": {
+    "main": false
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Bill Mukuna",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.4.0"
+  }
+}
